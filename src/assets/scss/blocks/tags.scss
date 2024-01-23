@@ -1,0 +1,17 @@
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+
+}
+.tags__item{
+    padding: 0.4rem 0.9rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    color: $white;
+    text-align: center;
+    background-color: #ea8c1e;
+
+}

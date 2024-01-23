@@ -1,0 +1,99 @@
+---
+layout: default
+title: Text Page
+---
+
+<article class="post">
+  <div class="post__actions">
+    <a href="index.html">Повернутися</a>
+    <a href="#"
+      >Поділитися
+      <img
+        class="post__actions-icon"
+        src="assets/images/share.svg"
+        alt="Поділитися"
+      />
+    </a>
+  </div>
+  <div class="post__header post__header--open">
+    <h1 class="post__title post__title--mb0">
+      Як я сходив на конференцію FrontEnd Conf 2023
+    </h1>
+  </div>
+  <div class="post__content">
+    <div class="post__text">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+        nemo delectus magnam reiciendis laboriosam sequi repellat qui et,
+        laborum facere quisquam? Unde dignissimos et nesciunt quos atque iusto
+        quis fugit.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+        nemo delectus magnam reiciendis laboriosam sequi repellat qui et,
+        laborum facere quisquam? Unde dignissimos et nesciunt quos atque iusto
+        quis fugit.
+      </p>
+      <p><img src="assets/images/big_post-1.jpg" alt="post-description" /></p>
+    </div>
+
+    <h3 class="post__subtitle">Обговорення</h3>
+    <form class="form" action="" method="post">
+      <div class="form__group">
+        <textarea
+          class="form__control form__control--textarea"
+          name="comment-text"
+          placeholder="Текст коментарія"
+        ></textarea>
+        <span class="form__line"></span>
+      </div>
+      <button class="btn btn--blue btn--rounded btn--sm" type="submit">
+        Відправити
+      </button>
+    </form>
+    <ul class="comments">
+      <li class="comments__item">
+        <div class="comments__header">
+          <img class="comments__avatar" src="https://placehold.it/30" alt="" />
+          <div class="comments__author">
+            <div class="comments__name">Юрій Березань</div>
+            <time class="comments__pubdate" datetime="2023-09-21"
+              >1 неділю назад</time
+            >
+          </div>
+        </div>
+        <div class="comments__text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
+          eligendi quod officia necessitatibus similique! Quas sequi aliquam,
+          rem, vel sit cupiditate sapiente modi magni eos id expedita ratione
+          suscipit? Ipsum!
+        </div>
+        <button class="comments__reply" type="button">Відповісти</button>
+        <ul class="comments">
+          <li class="comment__item">
+            <div class="comments__header">
+              <img
+                class="comments__avatar"
+                src="https://placehold.it/30"
+                alt=""
+              />
+              <div class="comments__author">
+                <div class="comments__name">Юрій Березань</div>
+                <time class="comments__pubdate" datetime="2023-09-21"
+                  >1 неділю назад</time
+                >
+              </div>
+            </div>
+            <div class="comments__text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit
+              eligendi quod officia necessitatibus similique! Quas sequi
+              aliquam, rem, vel sit cupiditate sapiente modi magni eos id
+              expedita ratione suscipit? Ipsum!
+            </div>
+            <button class="comments__reply" type="button">Відповісти</button>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</article>
