@@ -18,7 +18,13 @@ body {
     {
         overflow: hidden;
     }
+         @include breakpoint ($tablet) {
+            &.show-sidebar {
+                    overflow: hidden;
+                }
+         }
 }
+
 
 *,
 *:before,
