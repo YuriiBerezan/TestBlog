@@ -516,7 +516,7 @@ a:hover {
   .sidebar {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 4rem);
+    height: calc(100vh - 8rem);
     padding-bottom: 1.5rem;
     overflow: auto;
     top: 4rem;
@@ -719,7 +719,7 @@ a:hover {
 }
 .nav--mobile {
   display: none;
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 @media (max-width: 991px) {
   .nav--mobile {

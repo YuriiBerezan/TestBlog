@@ -4,9 +4,10 @@ const sidebar = document.getElementById('sidebar');
 const body = document.body;
 
 burger.addEventListener('click', function () {
-    body.classList.toggle('show-sidebar');
-    console.log(body.classList.contains('show-sidebar'))
-    // document.body.classList.add('show-sidebar');
+    // body.classList.toggle('show-sidebar');
+    // console.log(body.classList.contains('show-sidebar'))
+    document.body.classList.toggle('show-sidebar');
+     console.log(body.classList.contains('show-sidebar'))
     // if( body.classList.contains('show-sidebar') ) {
     //    document.body.classList.remove('show-sidebar');
     //     console.log('yes');
